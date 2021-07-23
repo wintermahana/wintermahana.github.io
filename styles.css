@@ -43,7 +43,9 @@ i {
   align-items: right;
   float: right;
 }
-
+.cards {
+  padding-left: 30px;
+}
 
 
 
