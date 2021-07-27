@@ -1,8 +1,13 @@
-i {
-  font-size: 40px;
-  padding: 5px;
-  color: #006144;
-}
+@charset "utf-8";
+
+  /*
+  Name: Winter Mahana
+  Assignment: Final Project
+  Filename: styles.css
+  Date: 7/23/2021
+  */
+
+/* Nav Styles */
 .navtext {
   font-weight: bold;
   font-size: 40px;
@@ -12,6 +17,7 @@ i {
   font-size: 20px;
   margin-right: 5px;
 }
+/* Header Styles */
 .title {
   font-size: 60px;
   color: #006144;
@@ -36,6 +42,12 @@ i {
   margin-right: -200px;
   text-align: center;
 }
+/* Font Awesome */
+i {
+  font-size: 40px;
+  padding: 5px;
+  color: #006144;
+}
 .fa-users {
   font-size: 150px;
   color: black;
@@ -43,6 +55,12 @@ i {
   align-items: right;
   float: right;
 }
+.fa-phone, .fa-envelope, .fa-copyright {
+  color: #006144;
+  font-size: 15pt;
+  text-align: center;
+}
+/* Card Styles */
 .cards {
   padding-left: 30px;
 }
@@ -62,20 +80,51 @@ i {
   background-color: #006144;
   color: white;
 }
-.fa-phone, .fa-envelope, .fa-copyright {
-  color: #006144;
-  font-size: 15pt;
-  text-align: center;
-}
+
 .copy {
   font-size: 10pt;
   color: black;
 }
+/* Image Styles */
 .cimages {
   margin-top: 20px;
 }
 
+/* Resume Styles */
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+.menu li {
+  padding: 2px;
+  margin-bottom: 7px;
+  background-color: #006144;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 6px;
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.skills {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+figcaption {
+  margin-bottom: -15px;
+}
 
 
 @media only screen and (max-width: 600px) {
