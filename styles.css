@@ -52,7 +52,6 @@ i {
   font-size: 150px;
   color: black;
   margin-top: 20px;
-  align-items: right;
   float: right;
 }
 .fa-phone, .fa-envelope, .fa-copyright {
@@ -89,6 +88,9 @@ i {
 .cimages {
   margin-top: 20px;
 }
+.divimg {
+  height:40px;
+}
 
 /* Resume Styles */
 .menu ul {
@@ -96,9 +98,8 @@ i {
   margin: 0;
   padding: 0;
 }
-
 .menu li {
-  padding: 2px;
+  padding: 5px;
   margin-bottom: 7px;
   background-color: #006144;
   color: #ffffff;
@@ -109,7 +110,7 @@ i {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
 }
 .skills {
   color: black;
@@ -125,7 +126,23 @@ figure img {
 figcaption {
   margin-bottom: -15px;
 }
+.colcolor {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border: 2px solid #006144;
+}
+.summary {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #006144;
+}
+.name {
+  font-weight: bold;
 
+}
 
 @media only screen and (max-width: 600px) {
   .fa-users {
